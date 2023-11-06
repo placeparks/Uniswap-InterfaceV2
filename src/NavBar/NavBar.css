@@ -1,0 +1,58 @@
+
+.logo {
+  width: 230px;
+}
+
+.Title {
+  background: #333; 
+  color: #fff; 
+  height: 60px; 
+  line-height: 60px; 
+  padding-left: 2%; 
+  font-size: 1.5rem; 
+  font-weight: bold; 
+}
+
+
+.navbar-logo {
+  color: #4CAF50; /* Bright color to make the logo pop */
+  cursor: pointer;
+  font-size: 2rem; /* Even larger font size for the logo text */
+  font-weight: bold; /* Bold font weight for the logo */
+  margin-right: auto; /* Push everything else to the right */
+  padding-top: 10px; /* Add padding on top of the logo text */
+}
+
+
+.NavbarItems {
+  color:#1a1a1a ;
+  display: flex;
+  justify-content: center; /* Align navbar items in the center horizontally */
+  align-items: center; /* Align navbar items in the center vertically */
+  font-size: 1.2rem; /* Slightly larger font size */
+  width: 100%;
+  padding: 0 2%; /* Apply padding to both sides */
+  height: 80px; /* Adjusted for vertical centering */
+}
+
+.nav-menu {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  align-items: center; /* Center items vertically */
+  padding: 0; /* Remove padding-top */
+}
+
+.nav-links {
+  color: black;
+  text-decoration: none;
+  padding: 15px 20px; /* Larger padding for a bigger clickable area */
+  font-size: 1.5rem; /* Increased font size for the links */
+  border-radius: 4px;
+}
+
+.nav-links:hover, .nav-links-clicked {
+  color: #fff;
+  background-color: #4CAF50;
+  transition: background-color 0.3s ease;
+}
