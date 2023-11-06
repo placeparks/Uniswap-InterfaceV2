@@ -3,6 +3,7 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
+<<<<<<< HEAD
         "@babel/core": "^7.14.3",
         "@material-ui/core": "^4.12.2",
         "@material-ui/icons": "^4.11.2",
@@ -25,6 +26,30 @@
         "remark-gfm": "^1.0.0",
         "web-vitals": "^1.0.1",
         "web3": "^1.3.6"
+=======
+      "@babel/core": "^7.14.3",
+      "@testing-library/jest-dom": "^5.11.4",
+      "@testing-library/react": "^11.1.0",
+      "@testing-library/user-event": "^12.1.10",
+      "bignumber": "^1.1.0",
+      "bootstrap": "^5.0.1",
+      "ethers": "^5.4.1",
+      "gh-pages": "^3.2.3",
+      "react-bootstrap": "^1.6.0",
+      "react-dom": "^17.0.1",
+      "react-markdown": "^6.0.2",
+      "react": "17.0.1",
+      "react-native": "^0.64.1",
+      "react-router-dom": "^5.2.0",
+      "react-scripts": "4.0.3",
+      "remark-gfm": "^1.0.0",
+      "web-vitals": "^1.0.1",
+      "web3": "^1.3.6",
+      "@material-ui/core": "^4.12.2",
+      "@material-ui/icons": "^4.11.2",
+      "prop-types": "^15.7.2",
+      "notistack": "^1.0.10"
+>>>>>>> ee68f2be5fa70271e9b4f4f1e2e2599987e37f18
     },
     "scripts": {
         "deploy": "gh-pages -d build",
@@ -51,4 +76,8 @@
             "last 1 safari version"
         ]
     }
+<<<<<<< HEAD
 }
+=======
+  }
+>>>>>>> ee68f2be5fa70271e9b4f4f1e2e2599987e37f18
